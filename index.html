@@ -14,25 +14,19 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="/images/drawing.jpg" alt="" width="30" height="25"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-antiquewhite">
-              <li class="nav-item">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Info</a>
-                </li>
-                <a class="nav-link" href="#">Find Bats</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Conservation</a>
-              </li>
-          </div>
-        </div>
+    <nav id="navbar" class="navbar navbar-light bg-light px-3">
+      <a class="navbar-brand" href="#"><img src="/images/drawing.jpg" alt="" width="30" height="25"></a>
+      <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading1">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">Find Bats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeadin3">Conservation</a>
+        </li>
+      </ul>
     </nav>
 
     <br>
@@ -55,7 +49,7 @@
       <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
           <div class="w-100 text-antiquewhite">
-            <h1 class="display-3">Bats!</h1>
+            <h1 class="display-1">Bats!</h1>
             <p class="lead mb-0">An info site for these flying friends and helpful pollinators</p>
           </div>
         </div>
@@ -78,31 +72,15 @@
   <br>
   <br>
 
-  <div class="container-fluid text-center justify-content-center align-items-center">
-      <div class="row">
-        <div class="row-content">
-          <div>
-              <h2>Why Bats?</h2>
-              <p>lorem ipsum </p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="row-content">
-          <div>
-              <h2>Find Bats</h2>
-              <p>Learn about some endangered species in your area!</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="row-content">
-          <div>
-              <h2>Conservation</h2>
-              <p>Learn how you can help bats today!</p>
-          </div>
-        </div>
-      </div>
+  <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy" tabindex="0">
+    <div class="row d-flex text-center align-items-center">
+      <h4 id="scrollspyHeading1">Info</h4>
+      <p>...</p>
+      <h4 id="scrollspyHeading2">Find Bats</h4>
+      <p>...</p>
+      <h4 id="scrollspyHeading3">Conservation</h4>
+      <p>...</p>
+    </div>
   </div>
 
 <!--Bootstrap JS Popper Bundle-->
