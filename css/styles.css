@@ -1,9 +1,4 @@
 
-body {
-    color:antiquewhite;
-    
-}
-
 nav {
     position: absolute;
     top: 0;
@@ -23,6 +18,10 @@ video {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+header {
+    color: antiquewhite;
 }
 
 header .container {
