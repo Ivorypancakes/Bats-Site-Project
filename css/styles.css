@@ -11,6 +11,12 @@ nav {
     color: black;
 }
 
+.scrollspy-example {
+    position: relative;
+    height: 300px;
+    overflow: scroll;
+}
+
 video { 
     position: absolute;
     top: 0;
@@ -40,3 +46,4 @@ header .overlay {
     opacity: 0.5;
     z-index: 1;
 }
+

@@ -14,7 +14,7 @@
 
 <body>
   <header>
-    <nav id="navbar" class="navbar navbar-light bg-light px-3">
+    <nav id="#navbar-example2" class="navbar px-3">
       <a class="navbar-brand" href="#"><img src="/images/drawing.jpg" alt="" width="30" height="25"></a>
       <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -24,7 +24,7 @@
           <a class="nav-link" href="#scrollspyHeading2">Find Bats</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeadin3">Conservation</a>
+          <a class="nav-link" href="#scrollspyHeading3">Conservation</a>
         </li>
       </ul>
     </nav>
@@ -50,7 +50,7 @@
         <div class="d-flex h-100 text-center align-items-center">
           <div class="w-100 text-antiquewhite">
             <h1 class="display-1">Bats!</h1>
-            <p class="lead mb-0">An info site for these flying friends and helpful pollinators</p>
+            <p class="lead mb-0">An informative site for these flying friends and helpful pollinators</p>
           </div>
         </div>
       </div>
@@ -72,14 +72,23 @@
   <br>
   <br>
 
-  <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy" tabindex="0">
-    <div class="row d-flex text-center align-items-center">
-      <h4 id="scrollspyHeading1">Info</h4>
-      <p>...</p>
-      <h4 id="scrollspyHeading2">Find Bats</h4>
-      <p>...</p>
-      <h4 id="scrollspyHeading3">Conservation</h4>
-      <p>...</p>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <div  id="scrollspyHeading1" class="row d-flex text-center align-items-center">
+      <div class="row-item">
+        <h2>Infomation About Bats</h2>
+        <p>...</p>
+      </div>
+    <div id="scrollspyHeading2" class="row d-flex text-center align-items-center">
+      <div class="row-item">
+        <h2>Find Common Bats</h2>
+        <p>...</p>
+      </div>
+    </div>
+    <div id="scrollspyHeading3" class="row d-flex text-center align-items-center">
+      <div class="row-item">
+        <h2>Conservation Efforts</h2>
+        <p>...</p>
+      </div>
     </div>
   </div>
 
